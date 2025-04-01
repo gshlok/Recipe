@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+    background-color: #DBAB85; /* Light gray background */
+    color: #333; /* Dark text color for contrast */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */    
+}
+
+.title {
+    text-align: center;
+    font-size: 4em  /* Large font size for the title */; 
+    color: black;
+    margin: 20px 0; 
+    background-color: #AB5235;
+
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: auto; /* Remove default padding */
+    margin: auto; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within items */
+    justify-content: center; /* Center items within the container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    gap: 20px; /* Space between items */
+}
+li {
+    list-style-type: none;
+    margin-top: 36px; /* Space between items */
+    margin-left: auto; /* Center items within the container */
+    margin-right: auto; /* Center items within the container */
+    padding: 8px;
+    background-color: #AB5235;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
